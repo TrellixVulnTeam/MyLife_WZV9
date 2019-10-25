@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa4c149-ae7d-453b-936f-ae00c4380e19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/ThirdPartyLibrariesCss/APlayer.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/ThirdPartyLibrariesJs/APlayer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/ThirdPartyLibrariesJs/Meting.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/lifeInterfaceAppCss/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/lifeInterfaceAppCss/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/templates/lifeInterfaceApp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/templates/lifeInterfaceApp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/my_life/my_life/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/my_life/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +32,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Python Script" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -76,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571975441404</updated>
-      <workItem from="1571975442589" duration="12861000" />
+      <workItem from="1571975442589" duration="16042000" />
     </task>
     <servers />
   </component>

@@ -5,9 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
     <link rel="Shortcut Icon" href="{% static 'img/title_icon.png' %}">
+    <link rel="stylesheet" href="{% static 'ThirdPartyLibrariesCss/APlayer.min.css' %}">
     <link rel="stylesheet" href="{% static 'ThirdPartyLibrariesCss/normalize.min.css' %}">
     <link rel="stylesheet" href="{% static 'lifeInterfaceAppCss/base.css' %}">
     <link rel="stylesheet" href="{% block customCss1 %}{% endblock %}">
@@ -28,5 +27,6 @@
 <script src="{% block customJs1 %}{% endblock %}"></script>
 <script src="{% block customJs2 %}{% endblock %}"></script>
 <script src="{% block customJs3 %}{% endblock %}"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
+<script src="{% static 'ThirdPartyLibrariesJs/APlayer.min.js' %}"></script>
+<script src="{% static 'ThirdPartyLibrariesJs/Meting.min.js' %}"></script>
 </html>
