@@ -18,6 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('lifeAdmin/', admin.site.urls),
-    path('', include('lifeInterfaceApp.routes.urls')),  # 前端api
+    path('', include('lifeInterfaceApp.routes.urls')),  # 前端
     path('api/', include('lifeServerApiApp.routes.urlsApi'))  # 后端api
 ]

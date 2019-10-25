@@ -1,0 +1,26 @@
+{% load static %}
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="Shortcut Icon" href="{% static 'img/title_icon.png' %}">
+    <link rel="stylesheet" href="{% static 'ThirdPartyLibrariesCss/normalize.min.css' %}">
+    <link rel="stylesheet" href="{% static 'lifeInterfaceAppCss/base.css' %}">
+    <link rel="stylesheet" href="{% block customCss1 %}{% endblock %}">
+    <link rel="stylesheet" href="{% block customCss2 %}{% endblock %}">
+    <link rel="stylesheet" href="{% block customCss3 %}{% endblock %}">
+    <title>{% block title %}Document{% endblock %}</title>
+</head>
+<body>
+    <div id="app">
+        {% block body %}{% endblock %}
+    </div>
+</body>
+<script src="{% static 'ThirdPartyLibrariesJs/Jquery.min.js' %}"></script>
+<script src="{% static 'ThirdPartyLibrariesJs/vue.min.js' %}"></script>
+<script src="{% block customJs1 %}{% endblock %}"></script>
+<script src="{% block customJs2 %}{% endblock %}"></script>
+<script src="{% block customJs3 %}{% endblock %}"></script>
+</html>

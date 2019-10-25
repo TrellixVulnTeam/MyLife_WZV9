@@ -6,5 +6,5 @@ app_name = 'api'
 
 # 注册上一级的路由地址并添加
 urlpatterns = [
-    url(r'userInfo/', UserApi.as_view(), name='userInfo')
+    re_path(r'^userInfo/$', UserApi.as_view(), name='userInfo')
 ]

@@ -1,26 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfa4c149-ae7d-453b-936f-ae00c4380e19" name="Default Changelist" comment="" />
+    <list default="true" id="dfa4c149-ae7d-453b-936f-ae00c4380e19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/App/home/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/routes/package_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/ThirdPartyLibrariesCss/READED.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/ThirdPartyLibrariesCss/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/ThirdPartyLibrariesJs/READED.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/img/title_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/lifeInterfaceAppCss/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/lifeInterfaceAppCss/home/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/templates/lifeInterfaceApp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/templates/lifeInterfaceApp/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyLife.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyLife.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/activate.xsh" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/activate.xsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/routes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/routes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/my_life/lifeServerApiApp/routes/urlsApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/lifeServerApiApp/routes/urlsApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/my_life/my_life/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/my_life/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SgBd1InqN6G7cptLLwzS6fZMD1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\MyLife\Scripts\my_life\lifeInterfaceApp\static\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,11 +90,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571975441404</updated>
-      <workItem from="1571975442589" duration="6404000" />
+      <workItem from="1571975442589" duration="10695000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
