@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa4c149-ae7d-453b-936f-ae00c4380e19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/App/home/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/routes/package_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/ThirdPartyLibrariesCss/READED.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/ThirdPartyLibrariesCss/normalize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/ThirdPartyLibrariesJs/READED.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/img/title_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/lifeInterfaceAppCss/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/lifeInterfaceAppCss/home/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/templates/lifeInterfaceApp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/templates/lifeInterfaceApp/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyLife.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyLife.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/activate.xsh" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/activate.xsh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/routes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/routes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/my_life/lifeServerApiApp/routes/urlsApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/lifeServerApiApp/routes/urlsApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/my_life/my_life/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/my_life/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/lifeInterfaceAppCss/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/static/lifeInterfaceAppCss/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/templates/lifeInterfaceApp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/my_life/lifeInterfaceApp/templates/lifeInterfaceApp/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571975441404</updated>
-      <workItem from="1571975442589" duration="10695000" />
+      <workItem from="1571975442589" duration="12861000" />
     </task>
     <servers />
   </component>
