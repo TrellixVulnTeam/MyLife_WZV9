@@ -1,0 +1,51 @@
+{% extends 'lifeInterfaceApp/base.html' %}
+{% load static %}
+
+{% block customCss1 %}{% static 'lifeInterfaceAppCss/home/index.css' %}{% endblock %}
+{% block title %}Joρhý Life{% endblock %}
+
+{% block body %}
+    <div class="head-back">
+        <div class="shard">
+            <div class="title">
+                与命运不公平的抗战...
+                <div class="title-inner">
+                    如果是你,一定可以做到...
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="MainInfo">
+        <div class="container">
+            {% verbatim myblock %}
+                <div class="box" v-for="diary in diary_list">
+                    <div class="imgBx">
+                        <img src="../../../static/img/home/imgBx1.jpg" alt="">
+                    </div>
+                    <div class="content" @click="getInfo(diary.id)">
+                        <div class="date">
+                            <h6>{{ diary.name }}・{{ diary.date }}・{{ diary.classification }}</h6>
+                        </div>
+                        <div>
+                            <h2>{{ diary.title }}</h2>
+                            <p>{{ diary.comment }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endverbatim myblock %}
+            <div class="prev-center">
+                <a href="#" title="上一页"><span></span><span></span>Prev Here</a>
+            </div>
+            <div class="next-center">
+                <a href="#" title="下一页"><span></span><span></span>Next Here</a>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>
+            —— 啊，<span class="inner">奎尔萨拉斯森林</span>
+            还是那么的美丽，记得当我还是个小孩子的时候曾来过这里。现在我们将踏平这里！
+        </p>
+    </div>
+{% endblock %}
+{% block customJs1 %}{% static 'lifeInterfaceAppJs/home/index.js' %}{% endblock %}

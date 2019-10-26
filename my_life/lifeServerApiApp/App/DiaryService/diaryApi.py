@@ -1,0 +1,34 @@
+from ...settings.config import data
+from rest_framework.views import APIView
+from django.http import JsonResponse
+from .order.diary_serializer import HomeDiarySerializer
+from ...utils.single_model.model_object import modelObject
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
+
+class DiaryApi(APIView):
+
+    PAGE_COUNT = 8  # 每页显示8条数据
+
+    def get(self, request):
+        """首页获取日记简介的部分内容/首页不展示日记所有内容"""
+
+        diary_list = modelObject.diary_model.all()
+
+        paginator = Paginator(diary_list, self.PAGE_COUNT)
+
+        page = request.GET.get('page', 1)  # 获取当前页数,None则取1
+
+        try:
+            diary = paginator.page(page)
+        except PageNotAnInteger:
+            # 如果page不为int类型,则返回第1页
+            diary = paginator.page(self.PAGE_COUNT)
+        except EmptyPage:
+            # 如果page超出获取范围,则返回最后一页
+            diary = paginator.page(paginator.num_pages)
+
+        diary_data = HomeDiarySerializer(instance=diary, many=True).data
+        data['content']['list'] = diary_data
+
+        return JsonResponse(data)
