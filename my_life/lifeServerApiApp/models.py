@@ -81,9 +81,10 @@ class Diary(models.Model):
     comment = models.CharField(max_length=2048, blank=True, null=True)
     date = models.DateTimeField(blank=True, null=True)
     classification = models.CharField(max_length=255, blank=True, null=True)
+    image = models.CharField(max_length=1024)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'diary'
 
 

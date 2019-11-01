@@ -10,3 +10,16 @@ class HomeDiarySerializer(serializers.Serializer):
     comment = serializers.CharField()
     date = serializers.DateTimeField(format='%Y-%m-%d %H:%M:%S')
     classification = serializers.CharField(max_length=255, label='分类')
+    image = serializers.CharField(max_length=1024, label='image')
+
+
+class SpecDiarySerializer(serializers.Serializer):
+
+    id = serializers.IntegerField(read_only=True, label='id')
+    name = serializers.CharField(max_length=255, label='名称')
+    title = serializers.CharField()
+    content =serializers.CharField()
+    comment = serializers.CharField()
+    date = serializers.DateTimeField(format='%Y-%m-%d %H:%M:%S')
+    classification = serializers.CharField(max_length=255, label='分类')
+    image = serializers.CharField(max_length=1024, label='image')

@@ -2,13 +2,22 @@ from ...settings.config import data
 from rest_framework.views import APIView
 from django.http import JsonResponse
 from .order.diary_serializer import HomeDiarySerializer
-from ...utils.single_model.model_object import modelObject
+from ...utils.AppFunctools import modelObject
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 class DiaryApi(APIView):
 
-    PAGE_COUNT = 8  # 每页显示8条数据
+    PAGE_COUNT = 6  # 每页显示n条数据
+
+    data = {
+        "appStatus": {
+            "errorCode": 0,
+            "errorParameter": "",
+            "message": "操作成功!"
+        },
+        "content": {}
+    }
 
     def get(self, request):
         """首页获取日记简介的部分内容/首页不展示日记所有内容"""
@@ -29,6 +38,6 @@ class DiaryApi(APIView):
             diary = paginator.page(paginator.num_pages)
 
         diary_data = HomeDiarySerializer(instance=diary, many=True).data
-        data['content']['list'] = diary_data
+        self.data['content']['list'] = diary_data
 
-        return JsonResponse(data)
+        return JsonResponse(self.data)
